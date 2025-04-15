@@ -113,7 +113,7 @@ describe('fillTank', () => {
     );
   });
 
-  test('If the poured amount is less than 2 liters, do not pour at all', () => {
+  test('Round the bought fuel price to the nearest 100th part', () => {
     const customer = {
       money: 100,
       vehicle: {
